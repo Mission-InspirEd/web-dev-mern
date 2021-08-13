@@ -1,3 +1,1 @@
-mongodb+srv://admin:<password>@cluster0.emj66.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-
-O1WDALbxNqknCk46
+mongodb+srv://admin:O1WDALbxNqknCk46@cluster0.emj66.mongodb.net/myFirstDatabase?retryWrites=true&w=majority

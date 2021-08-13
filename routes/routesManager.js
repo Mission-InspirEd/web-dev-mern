@@ -1,5 +1,5 @@
 const express = require('express')
-const router = express.Router
+const router = express.Router()
 
 router.get('/request', function (req, res) {
     res.send('hello world')

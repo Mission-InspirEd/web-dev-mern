@@ -6,7 +6,7 @@ const messageSchema = mongoose.Schema({
     recipients: {type: [String]},
     prevMsg: {type: String},
     nextMsg: {type: String},
-    dateCreated: {type: Date, default: new Date.now()}
+    dateCreated: {type: Date, default: new Date()}
 })
 
 const Message = mongoose.model('Message', messageSchema)

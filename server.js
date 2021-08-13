@@ -18,6 +18,8 @@ connection.once("open", () => {
   console.log("MongoDB database connection established successfully");
 });
 
+app.use(express.json())
+
 app.use('/api', routes)
 
 const root = require('path').join(__dirname, 'client', 'build')

@@ -9,12 +9,12 @@ function Home(){
     // .then((res) => setResponse(res.data))
 
     // async/await
-    async function serverRequest() {
-        const res = await axios.get('/request')
-        setResponse(res.data)
-    }
+    // async function serverRequest() {
+    //     const res = await axios.get('/request')
+    //     setResponse(res.data)
+    // }
 
-    serverRequest()
+    // serverRequest()
 
     return (
         <div>

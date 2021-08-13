@@ -15,4 +15,9 @@ router.post('/message', function (req, res) {
     res.send('success')
 })
 
+router.get('/message', function (req, res) {
+    Message.find({})
+    .then((docs) => res.send(docs))
+})
+
 module.exports = router
